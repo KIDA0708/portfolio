@@ -2,46 +2,111 @@
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ポートフォリオ</title>
     <link rel="stylesheet" href="main.css" />
   </head>
   <body>
+  <div class="bg_pattern Boxes"></div>
     <div class="container">
       <h1>KIDA's Portfolio</h1>
       <p>関西在住の高専4年生です。メカトロ系の学科に在籍しています。</p>
 
       <h2>Works</h2>
+      <h2 class="heading-19">特別研究 前期</h2>
 
       <h3>2023年: 大阪天満宮の３Dモデル製作</h3>
       <p>
         3年次に「<strong>百年後に残したいもの</strong>」というテーマの基礎研究で、私のチームは神社を選び、残す方法として、仮想空間を用いた方法を考えました。
       </p>
       <p>
-        他メンバーには、神社の歴史を調べてもらい、私は大阪天満宮の３Dモデルを作成しました。何度も天満宮に行き、写真を撮影し、そこからスケッチを描いて具体的な構想を作るのに苦労しました。最初は時間のかかっていた設計も時間が経つうちに速く、正確にできるになり、高い設計能力を身に着けることができました。
+        他メンバーには、神社の歴史を調べてもらい、私は<a href="https://ja.wikipedia.org/wiki/大阪天満宮"><strong>大阪天満宮</strong></a>の３Dモデルを作成しました。何度も天満宮に行き、写真を撮影し、そこからスケッチを描いて具体的な構想を作るのに苦労しました。最初は時間のかかっていた設計も時間が経つうちに速く、正確にできるになり、高い設計能力を身に着けることができました。
       </p>
       <div class="img-2col-container">
         <div>
-          <img src="work-01.jpg" />
+          <img src="shine-1.png" />
         </div>
         <div>
-          <img src="work-02.jpg" />
+          <img src="shine-2.png" />
         </div>
       </div>
-
+      
+      <h2 class="heading-19">特別研究 後期</h2>
+      <h3>2023年: 電動ナーフ製作</h3>
+      <p>
+        3年次に「<strong>理想の○○を作る</strong>」というテーマの特別研究で、子供が遊んでも安全な電動<a href="https://ja.wikipedia.org/wiki/ナーフ"><strong>ナーフ</strong></a>を製作しました。モータをPWM制御で速度調節できるようにしており、弾速の調整がしやすい仕組みになっています。
+      </p>
+      <div class="img-2col-container">
+        <div>
+         <p class="img-radius">
+         <img src="na-fu-1.png" />
+         </p>
+        </div>
+      </div>
+      
+      <h2 class="heading-19">基礎研究</h2>
+      <h3>2024年: ロボットハンド製作</h3>
+      <p>
+        4年次に基礎研究でやわらかいものを掴むロボットハンドを製作しました。製作には主に３Dプリンタ、レーザー加工機を使用し、ハンドの爪部分にはTPU（<a href="https://ja.wikipedia.org/wiki/ポリウレタン系熱可塑性エラストマー"><strong>ポリウレタン系熱可塑性エラストマー</strong></a>）のフィラメントで印刷し、やわらかいものも掴めるようにしました。
+      </p>
+      <div class="img-2col-container">
+        <div>
+          <img src="robot arm-1.png" />
+        </div>
+        <div>
+          <img src="robot arm-2.png" />
+        </div>
+      </div>
+      
       <h2>Skills</h2>
       <p>
-        授業やクラブ活動、文化祭活動、趣味を含めて利用経験のあるハードウェアやソフトウェアの一覧です。習熟度の目安として累積使用時間が10時間以上のものを「★」、30時間以上を「★★」、100時間以上を「★★★」と表記しています。
+        授業やクラブ活動、文化祭活動、趣味を含めて利用経験のあるハードウェアやソフトウェアの一覧です。
+      </p>
+      <p>
+       <strong>ソフトウェア</strong>　80％以上のものは累計使用時間が100時間以上のものです。
+      </p>
+     
+      
+      <!DOCTYPE html>
+      <html lang="ja">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>画像に円形パーセント表示</title>
+        <link rel="stylesheet" href="styles.css">
+     </head>
+     <body>
+      <div class="image-container">
+        <div class="image-wrapper" data-percent="90%">
+            <img src="fusion.png" alt="画像1">
+        </div>
+        <div class="image-wrapper" data-percent="70%">
+            <img src="bambustudio-logo.png" alt="画像2">
+        </div>
+        <div class="image-wrapper" data-percent="70%">
+            <img src="kicad.png" alt="画像3">
+        </div>
+        <div class="image-wrapper" data-percent="40%">
+            <img src="c  language.png" alt="画像4">
+        </div>
+        <div class="image-wrapper" data-percent="80%">
+            <img src="microsoft office.png" alt="画像5">
+        </div>
+      </div>
+     </body>
+     </html>
+      <p>
+       <strong>ハードウェア</strong>
       </p>
       <ul>
-        <li>Fusion 360（3D-CAD）</li>
-        <li>汎用旋盤</li>
+        <li>3Dプリンタ</li>
+        <li>レーザー加工機</li>
         <li>ボール盤</li>
-        <li>フライス盤</li>
         <li>Arduino</li>
         <li>電子工作（ブレッドボード）</li>
-        <li>Python</li>
+        <li>汎用旋盤</li>
+        <li>フライス盤</li>
       </ul>
     </div>
   </body>
 </html>
+.
